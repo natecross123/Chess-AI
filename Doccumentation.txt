@@ -1,0 +1,22 @@
+HOW IT WORKS 
+
+
+Minimax Algorithm
+The Minimax algorithm is a decision-making algorithm for turn-based games. It works by:
+
+Building a game tree of possible moves
+Evaluating leaf nodes (terminal positions)
+Propagating scores up the tree
+Maximizing score for the engine's turn
+Minimizing score for the opponent's turn
+
+Alpha-Beta Pruning
+Alpha-Beta pruning optimizes Minimax by:
+
+Maintaining alpha (best score for maximizing player)
+Maintaining beta (best score for minimizing player)
+Pruning branches that cannot affect the final decision
+Reducing the search space significantly
+
+
+Note where AI was used the entire GUI interface idk how to do that it doesnt reallly work either way  and Evaluation.py partially 
