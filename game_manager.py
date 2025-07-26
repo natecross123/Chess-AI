@@ -156,7 +156,7 @@ class GameManager:
         elif self.board.is_repetition():
             print("Draw by threefold repetition.")
         else:
-            print("Game ended.")
+            print("Game ended.") 
     
     def reset_game(self):
         """

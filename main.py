@@ -259,7 +259,7 @@ def main_menu():
         
         if ui.colors_supported:
             ui.print_colored("\n🎮 MAIN MENU", 'yellow')
-            print("="*25)
+            print("="*25) 
         else:
             print("\nMAIN MENU")
             print("="*25)
